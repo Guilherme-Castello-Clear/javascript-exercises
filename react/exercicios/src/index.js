@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom'
 import Primeiro from './componentes/Primeiro'
 import BomDia from './componentes/BomDia'
 import Multi, { BoaNoite } from './componentes/Multiplos'
+import Saudacao from './componentes/Saudacao'
 
 ReactDOM.render(<div>
-    <Multi.BoaTarde nome='Elis'/>
-    <BoaNoite nome='Maria'/>
-</div>, document.getElementById('root'))
+    <Saudacao tipo="Bom dia" nome="João"></Saudacao>
+    </div>, document.getElementById('root'))
